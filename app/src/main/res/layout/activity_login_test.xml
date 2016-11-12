@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#515551"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <EditText
+            android:id="@+id/LoginHomePasswordField"
+            android:layout_width="240dp"
+            android:layout_height="60dp"
+            android:layout_alignLeft="@+id/LoginHomeUserNameField"
+            android:layout_alignStart="@+id/LoginHomeUserNameField"
+            android:layout_below="@+id/LoginHomeUserNameField"
+            android:layout_marginTop="59dp"
+            android:background="@drawable/background_thin_border"
+            android:ems="10"
+            android:inputType="textPassword"
+            android:text="Password"
+            android:textAlignment="center"
+            android:textColor="?android:attr/colorForegroundInverse" />
+
+        <Button
+            android:id="@+id/LoginHomeLoginButton"
+            android:layout_width="240dp"
+            android:layout_height="60dp"
+            android:layout_alignEnd="@+id/LoginHomePasswordField"
+            android:layout_alignLeft="@+id/LoginHomePasswordField"
+            android:layout_alignRight="@+id/LoginHomePasswordField"
+            android:layout_alignStart="@+id/LoginHomePasswordField"
+            android:layout_below="@+id/LoginHomePasswordField"
+            android:layout_marginTop="24dp"
+            android:text="Login"
+            android:textColor="@android:color/black" />
+
+        <EditText
+            android:id="@+id/LoginHomeUserNameField"
+            android:layout_width="240dp"
+            android:layout_height="60dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginEnd="78dp"
+            android:layout_marginRight="78dp"
+            android:layout_marginTop="157dp"
+            android:background="@drawable/background_thin_border"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="User Name"
+            android:textAlignment="center"
+            android:textColor="?android:attr/colorForegroundInverse"
+            android:textStyle="normal|bold" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/LoginHomeLoginButton"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="24dp"
+            android:text="Forget Password ?"
+            android:textAlignment="center"
+            android:textColor="@android:color/holo_red_dark"
+            android:textSize="16sp"
+            android:textStyle="normal|bold" />
+
+        <Button
+            android:id="@+id/LoginHomeForgetPasswordButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/LoginHomeLoginButton"
+            android:layout_alignLeft="@+id/LoginHomeLoginButton"
+            android:layout_alignRight="@+id/LoginHomeLoginButton"
+            android:layout_alignStart="@+id/LoginHomeLoginButton"
+            android:layout_below="@+id/textView"
+            android:layout_marginTop="23dp"
+            android:text="Forget Password"
+            android:textColor="@android:color/black" />
+    </RelativeLayout>
+
+</LinearLayout>

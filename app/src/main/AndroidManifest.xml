@@ -5,7 +5,7 @@
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
-        android:label="Welcome to Swapno"
+        android:label="SWAPNO"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".MainActivity">
@@ -16,6 +16,12 @@
             </intent-filter>
         </activity>
         <activity android:name=".Register">
+
+        </activity>
+        <activity android:name=".LoginHome">
+
+        </activity>
+        <activity android:name=".ForgetPassword">
 
         </activity>
     </application>
