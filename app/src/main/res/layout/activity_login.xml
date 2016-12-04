@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#b6dcd7"
+    android:orientation="vertical"
+    android:weightSum="1"
+    tools:ignore="ExtraText"><![CDATA[
+    FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.30">
+    ]]>
+
+    <TextView
+        android:id="@+id/textView_login_header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="LOGIN"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        tools:ignore="HardcodedText"
+        android:layout_above="@+id/textView_password"
+        android:layout_toRightOf="@+id/button_login_page_button" />
+
+    <RelativeLayout
+        android:id="@+id/Login_relative_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/backgroud_border_light_red_backgroud">
+
+        <Button
+            android:id="@+id/button_register_login_window"
+            android:background="@android:color/black"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Register"
+            tools:ignore="HardcodedText,PrivateResource"
+            android:layout_alignParentBottom="true"
+            android:layout_alignLeft="@+id/button_login_page_button"
+            android:layout_alignStart="@+id/button_login_page_button"
+            android:layout_marginBottom="53dp"
+            android:layout_alignRight="@+id/forget_password_login_page"
+            android:layout_alignEnd="@+id/forget_password_login_page" />
+
+        <Button
+            android:id="@+id/forget_password_login_page"
+            android:background="@android:color/black"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/forget_password"
+            tools:ignore="PrivateResource"
+            android:layout_above="@+id/button_register_login_window"
+            android:layout_alignRight="@+id/editText_username_Text"
+            android:layout_alignEnd="@+id/editText_username_Text"
+            android:layout_marginBottom="23dp" />
+
+        <Button
+            android:id="@+id/button_login_page_button"
+            android:background="@android:color/black"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/login"
+            tools:ignore="PrivateResource"
+            android:layout_alignBaseline="@+id/forget_password_login_page"
+            android:layout_alignBottom="@+id/forget_password_login_page"
+            android:layout_alignLeft="@+id/editText_password_text"
+            android:layout_alignStart="@+id/editText_password_text" />
+
+        <EditText
+            android:id="@+id/editText_password_text"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPassword"
+            android:text="@string/password"
+            android:layout_above="@+id/forget_password_login_page"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="14dp" />
+
+        <EditText
+            android:id="@+id/editText_username_Text"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:text="@string/user_name"
+            android:inputType=""
+            android:layout_above="@+id/editText_password_text"
+            android:layout_alignLeft="@+id/editText_password_text"
+            android:layout_alignStart="@+id/editText_password_text"
+            android:layout_marginBottom="26dp"
+            style="@style/Widget.AppCompat.AutoCompleteTextView"
+            android:selectAllOnFocus="false"
+            android:singleLine="false" />
+
+        <TextView
+            android:id="@+id/textView_password"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/enter_your_username_and_password"
+            android:layout_marginBottom="14dp"
+            android:layout_above="@+id/editText_username_Text"
+            android:layout_alignLeft="@+id/editText_username_Text"
+            android:layout_alignStart="@+id/editText_username_Text"
+            android:layout_alignRight="@+id/editText_username_Text"
+            android:layout_alignEnd="@+id/editText_username_Text" />
+
+    </RelativeLayout>
+
+
+</LinearLayout>
