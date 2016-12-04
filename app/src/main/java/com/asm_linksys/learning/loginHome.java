@@ -17,6 +17,15 @@ public class LoginHome extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login_test);
+        login=(Button)findViewById(R.id.LoginHomeLoginButton);
+        login.setOnClickListener(new View.OnClickListener(){
+
+            @Override
+            public void onClick(View view) {
+            Intent loginHomeIntent=new Intent(LoginHome.this,AfterLoginHome.class);
+                startActivity(loginHomeIntent);
+            }
+        });
         forgetPassword = (Button) findViewById(R.id.LoginHomeForgetPasswordButton);
         forgetPassword.setOnClickListener(new View.OnClickListener() {
             @Override

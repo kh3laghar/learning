@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/background_thin_border">
+
+        <Button
+            android:text="Search User "
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="41dp"
+            android:id="@+id/AfterLoginHomeSearchUser"
+            android:layout_below="@+id/AfterLoginHomeAddUser"
+            android:layout_alignLeft="@+id/AfterLoginHomeAddUser"
+            android:layout_alignStart="@+id/AfterLoginHomeAddUser" />
+
+        <Button
+            android:text="Add User"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="178dp"
+            android:id="@+id/AfterLoginHomeAddUser"
+            android:layout_width="200dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginRight="91dp"
+            android:layout_marginEnd="91dp" />
+    </RelativeLayout>
+</LinearLayout>
