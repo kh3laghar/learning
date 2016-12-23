@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/black"
+        tools:ignore="UselessParent">
+
+        <Spinner
+            android:id="@+id/selectDistrictSpinner"
+            android:layout_width="260dp"
+            android:layout_height="60dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="190dp"
+            android:popupBackground="#4e5923" />
+
+        <Spinner
+            android:id="@+id/selectBloogGroupSpinner"
+            android:layout_width="260dp"
+            android:layout_height="60dp"
+            android:layout_alignLeft="@+id/selectDistrictSpinner"
+            android:layout_alignStart="@+id/selectDistrictSpinner"
+            android:layout_below="@+id/selectDistrictSpinner"
+            android:layout_marginTop="100dp" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="200dp"
+            android:layout_height="60dp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="@string/select_blood_group"
+            android:textAppearance="@android:style/TextAppearance.Holo.Large" />
+
+        <TextView
+            android:id="@+id/SelectDistrictText"
+            android:layout_width="160dp"
+            android:layout_height="60dp"
+            android:layout_alignBottom="@+id/selectDistrictSpinner"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="74dp"
+            android:text="@string/select_division"
+            android:textAppearance="@android:style/TextAppearance.Holo.Large" />
+
+        <Button
+            android:id="@+id/SearchHomeSearchButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/selectBloogGroupSpinner"
+            android:layout_alignLeft="@+id/selectBloogGroupSpinner"
+            android:layout_alignRight="@+id/selectBloogGroupSpinner"
+            android:layout_alignStart="@+id/selectBloogGroupSpinner"
+            android:layout_below="@+id/selectBloogGroupSpinner"
+            android:layout_marginTop="45dp"
+            android:text="@string/SearchButton"
+            android:textAppearance="@android:style/TextAppearance.Holo.Large" />
+    </RelativeLayout>
+</LinearLayout>

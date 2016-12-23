@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/black">
+
+        <Spinner
+            android:id="@+id/selectDistrictSpinner"
+            android:layout_width="260dp"
+            android:layout_height="60dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="190dp" />
+
+        <Spinner
+            android:id="@+id/selectBloogGroupSpinner"
+            android:layout_width="260dp"
+            android:layout_height="60dp"
+            android:layout_alignLeft="@+id/selectDistrictSpinner"
+            android:layout_alignStart="@+id/selectDistrictSpinner"
+            android:layout_below="@+id/selectDistrictSpinner"
+            android:layout_marginTop="100dp" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="200dp"
+            android:layout_height="60dp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="Select Blood Group"
+            android:textAppearance="@android:style/TextAppearance.Holo.Large"
+            tools:targetApi="honeycomb_mr2" />
+
+        <TextView
+            android:id="@+id/SelectDistrictText"
+            android:layout_width="160dp"
+            android:layout_height="60dp"
+            android:layout_alignBottom="@+id/selectDistrictSpinner"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="74dp"
+            android:text="Select Division "
+            android:textAppearance="@android:style/TextAppearance.Holo.Large"
+            tools:targetApi="honeycomb_mr2" />
+
+        <Button
+            android:id="@+id/SearchHomeSearchButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/selectBloogGroupSpinner"
+            android:layout_alignLeft="@+id/selectBloogGroupSpinner"
+            android:layout_alignRight="@+id/selectBloogGroupSpinner"
+            android:layout_alignStart="@+id/selectBloogGroupSpinner"
+            android:layout_below="@+id/selectBloogGroupSpinner"
+            android:layout_marginTop="45dp"
+            android:text="Search"
+            android:textAppearance="@android:style/TextAppearance.Holo.Large"
+            tools:targetApi="honeycomb_mr2" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/SelectDistrictText"
+            android:layout_alignLeft="@+id/SelectDistrictText"
+            android:layout_alignStart="@+id/SelectDistrictText"
+            android:layout_marginBottom="22dp"
+            android:layout_marginLeft="22dp"
+            android:layout_marginStart="22dp"
+            android:text="Home" />
+    </RelativeLayout>
+</LinearLayout>

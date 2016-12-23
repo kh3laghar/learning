@@ -8,20 +8,30 @@
         android:label="SWAPNO"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        <activity android:name=".activity.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
+                <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Register">
+        <activity android:name=".activity.Register">
 
         </activity>
-        <activity android:name=".LoginHome">
+        <activity android:name=".activity.LoginHome">
 
         </activity>
-        <activity android:name=".ForgetPassword">
+        <activity android:name=".activity.ForgetPassword">
+
+        </activity>
+        <activity android:name=".activity.AfterLoginHome">
+
+        </activity>
+        <activity android:name=".activity.SearchHome">
+
+        </activity>
+        <activity android:name=".activity.AddUser">
 
         </activity>
     </application>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/background_thin_border"
+        tools:ignore="UselessParent">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/my_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            android:elevation="4dp"
+            android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+            app:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
+
+
+        <Button
+            android:id="@+id/AfterLoginHomeSearchUser"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/AfterLoginHomeAddUser"
+            android:layout_alignStart="@+id/AfterLoginHomeAddUser"
+            android:layout_below="@+id/AfterLoginHomeAddUser"
+            android:layout_marginTop="41dp"
+            android:text="Search User " />
+
+        <Button
+            android:id="@+id/AfterLoginHomeAddUser"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginEnd="91dp"
+            android:layout_marginRight="91dp"
+            android:layout_marginTop="178dp"
+            android:text="Add User" />
+    </RelativeLayout>
+</LinearLayout>
