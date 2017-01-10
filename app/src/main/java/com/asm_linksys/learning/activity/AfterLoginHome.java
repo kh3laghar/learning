@@ -50,9 +50,9 @@ public class AfterLoginHome extends AppCompatActivity {
         /**
          * Initiate Toolbar
          */
-        toolbar = (Toolbar) findViewById(R.id.toolbar);
+      /*  toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
-        // Toolbar Line Code ended
+        // Toolbar Line Code ended*/
         mHandler = new Handler();
 
 

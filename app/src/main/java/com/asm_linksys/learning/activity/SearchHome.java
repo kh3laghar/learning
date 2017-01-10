@@ -1,7 +1,7 @@
 package com.asm_linksys.learning.activity;
 
-import android.app.Activity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
@@ -15,7 +15,7 @@ import com.asm_linksys.learning.R;
  * Created by Md. Asiful Haque on 11/23/2016.
  */
 
-public class SearchHome extends Activity implements AdapterView.OnItemSelectedListener {
+public class SearchHome extends AppCompatActivity implements AdapterView.OnItemSelectedListener {
     Button searchUser;
     Spinner spinnerDistrictSelection;
     Spinner spinnerBloodGroupSelection;
@@ -39,7 +39,7 @@ public class SearchHome extends Activity implements AdapterView.OnItemSelectedLi
          * Second Spinner
          */
         spinnerBloodGroupSelection = (Spinner) findViewById(R.id.selectBloogGroupSpinner);
-        adapterBloodGroup = ArrayAdapter.createFromResource(this, R.array.BloogGroup, android.R.layout.simple_spinner_item);
+        adapterBloodGroup = ArrayAdapter.createFromResource(this, R.array.BloogGroupArray, android.R.layout.simple_spinner_item);
         adapterBloodGroup.setDropDownViewResource(android.R.layout.simple_spinner_item);
         spinnerBloodGroupSelection.setAdapter(adapterBloodGroup);
         spinnerBloodGroupSelection.setOnItemSelectedListener(this);

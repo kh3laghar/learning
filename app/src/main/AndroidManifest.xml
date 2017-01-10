@@ -34,13 +34,7 @@
         <activity android:name=".activity.AddUser">
 
         </activity>
-        <activity android:name=".AfterLoginHome">
 
-        </activity>
-        <activity android:name=".SearchHome">
-
-        </activity>
-        <activity android:name=".AddUser"></activity>
     </application>
 
 </manifest>

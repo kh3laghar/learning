@@ -106,7 +106,7 @@
     </LinearLayout>
 
     <Button
-        android:id="@+id/RegisterButton"
+        android:id="@+id/registerButtonRegisterHome"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
@@ -116,7 +116,7 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_above="@+id/RegisterButton"
+        android:layout_above="@+id/registerButtonRegisterHome"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:orientation="horizontal">
@@ -133,17 +133,17 @@
         android:layout_below="@+id/LinerLayoutFirst">
 
         <Spinner
-            android:id="@+id/districtSpinner"
-            android:layout_width="100dp"
+            android:id="@+id/districtSpinnerRegisterHome"
+            android:layout_width="150dp"
             android:layout_height="wrap_content"
-            android:layout_alignLeft="@+id/bloodGroupSpinner"
-            android:layout_alignStart="@+id/bloodGroupSpinner"
-            android:layout_below="@+id/bloodGroupSpinner"
+            android:layout_alignLeft="@+id/bloodGroupSpinnerRegisterHome"
+            android:layout_alignStart="@+id/bloodGroupSpinnerRegisterHome"
+            android:layout_below="@+id/bloodGroupSpinnerRegisterHome"
             android:layout_marginTop="43dp" />
 
         <Spinner
-            android:id="@+id/bloodGroupSpinner"
-            android:layout_width="100dp"
+            android:id="@+id/bloodGroupSpinnerRegisterHome"
+            android:layout_width="150dp"
             android:layout_height="wrap_content"
             android:layout_alignParentLeft="true"
             android:layout_alignParentStart="true"
