@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "447003725922",
+    "firebase_url": "https://learning-c4fe1.firebaseio.com",
+    "project_id": "learning-c4fe1",
+    "storage_bucket": "learning-c4fe1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:447003725922:android:f24f396375e6849c",
+        "android_client_info": {
+          "package_name": "com.asm_linksys.learning"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "447003725922-cdmtla4aamjfvm1aql79sallcg954pni.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.asm_linksys.learning",
+            "certificate_hash": "555461BE4778B313249A8D1427F3C8611E3DDFE1"
+          }
+        },
+        {
+          "client_id": "447003725922-2r1f0hgdf6d9d9e89da9bkbdklc3p4r1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCBkpLfxmV5uksP3fLyEdWTB9vF3cLLcUk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "447003725922-2r1f0hgdf6d9d9e89da9bkbdklc3p4r1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
