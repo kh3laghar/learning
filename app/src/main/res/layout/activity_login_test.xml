@@ -21,8 +21,10 @@
             android:layout_marginTop="59dp"
             android:background="@drawable/background_thin_border"
             android:ems="10"
+            android:hint="Password"
             android:inputType="textPassword"
-            android:text="Password"
+            android:linksClickable="false"
+            android:selectAllOnFocus="true"
             android:textAlignment="center"
             android:textColor="?android:attr/colorForegroundInverse" />
 
@@ -51,8 +53,8 @@
             android:layout_marginTop="157dp"
             android:background="@drawable/background_thin_border"
             android:ems="10"
+            android:hint="User Name"
             android:inputType="textPersonName"
-            android:text="User Name"
             android:textAlignment="center"
             android:textColor="?android:attr/colorForegroundInverse"
             android:textStyle="normal|bold" />
